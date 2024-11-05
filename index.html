@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gayaetiri - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>GAYAETIRI CHALASANI</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Image below the header -->
+    <img
+      src="../images/DSC_1252.jpg"
+      alt="Description of image"
+      class="header-image"
+    />
+
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <p>
+        I am a graduate student at the University of North Texas majoring in
+        Computer and Information Sciences. With a specialization in Artificial
+        Intelligence, I am proficient in C, Python, and Java. My interests lie
+        in Artificial Intelligence and Data Science.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>PROJECTS</h2>
+      <div class="project">
+        <h3>
+          1. Multi-variate Visualization and Analysis of Global Climatic Changes
+        </h3>
+        <p>
+          We have created various visualization graphs to analyze the climate
+          data such as Line chart, stacked area chart, scatterplot, heat map,
+          histograms, bubble graph, and bar charts. We have used Tableau, D3.js,
+          and Python for creating the visualizations. Finally, we created the
+          Weather Data Dashboard to showcase all the graphs that we have
+          created.
+        </p>
+        <a
+          href="https://chalasanigayaetiri.github.io/Data-Visualization/"
+          target="_blank"
+        >
+          View Project
+        </a>
+      </div>
+      <div class="project">
+        <h3>2. Prediction of Global Climatic Changes Using Deep Learning</h3>
+        <p>
+          We have taken a global weather CSV dataset and forecasted the weather
+          predictions of the climatic changes over the selected location over
+          the given date and timestamp. We have predicted Temperature, Humidity,
+          Wind Speed, CO2 Emission, and Pressure climatic changes using LSTMs in
+          Deep Learning.
+        </p>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="certifications">
+      <h2>CERTIFICATIONS</h2>
+      <div class="certification">
+        <h3>1. Aviatrix Multi-cloud Association Certification</h3>
+        <img
+          src="/images/aviatrix.png"
+          alt="Aviatrix Certification Badge"
+          class="certification-badge"
+        />
+      </div>
+      <div class="certification">
+        <h3>2. Tensor Flow Developer Certification</h3>
+      </div>
+      <div class="certification">
+        <h3>3.Azure 204 Certification</h3>
+      </div>
+      <div class="certification">
+        <h3>4.Azure Data Scientist Associate</h3>
+      </div>
+      <div class="certification">
+        <h3>5.Azure Developer Associate</h3>
+        <img
+          src="images/Azure Associate.png"
+          alt="Aviatrix Certification Badge"
+          class="certification-badge"
+        />
+      </div>
+      <!-- Add more certifications as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Gayaetiri Chalasani. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

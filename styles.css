@@ -1,0 +1,133 @@
+/* Existing styles */
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-image {
+  display: block;
+  max-width: 100%; /* Responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center it */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #ffffff; /* White color */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for nav items */
+nav a:hover {
+  color: #ffcc00; /* Change to a contrasting color on hover */
+  text-decoration: underline; /* Underline on hover */
+  opacity: 0.8; /* Slight transparency on hover */
+}
+
+/* Section heading color */
+section h2 {
+  color: #003366; /* Dark Blue color */
+}
+
+/* Increase font size for h3 */
+h3 {
+  font-size: 1.5em; /* Increase size as needed */
+}
+
+/* Paragraph styles for sections */
+section p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em; /* Adjust size */
+  line-height: 1.5; /* Improve readability */
+  color: #333; /* Change text color if needed */
+}
+
+/* Scrolling effect for sections */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for sections */
+section:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.project {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.project:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.certifications {
+  margin-bottom: 20px;
+  border: 2.5px solid #ccc;
+  padding: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff; /* Primary blue */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav ul li {
+    display: block; /* Stack nav items vertically */
+    margin: 10px 0; /* Spacing */
+  }
+
+  h3 {
+    font-size: 1.2em; /* Smaller font size on mobile */
+  }
+}
